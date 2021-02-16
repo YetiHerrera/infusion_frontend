@@ -1,7 +1,49 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap");
+
+$font-family-base: "Inter", sans-serif;
+$enable-responsive-font-sizes: true;
+
+$primary: #032ca6;
+$secondary: #03258c;
+$third: #021e73;
+$red: #f20505;
+$white: #f2f2f2;
+$gray: #d3d3d3;
+$black: #252525;
+
 $theme-colors: (
-  "info": rgb(255, 206, 71),
-  "danger": rgb(209, 74, 65),
+  "primary": $primary,
+  "secondary": $secondary,
 );
 
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-black: 900;
 
-@import "~bootstrap/scss/bootstrap";
+$h1-font-size: $font-size-base * 3.5;
+$h2-font-size: $font-size-base * 3;
+$h3-font-size: $font-size-base * 1.25;
+
+h1,
+.h1 {
+  @include font-size($h1-font-size);
+
+  font-weight: $font-weight-black;
+}
+
+h2,
+.h2 {
+  @include font-size($h2-font-size);
+
+  font-weight: $font-weight-semi-bold;
+}
+
+h3,
+.h3 {
+  @include font-size($h3-font-size);
+}
