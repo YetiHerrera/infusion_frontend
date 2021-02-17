@@ -1,0 +1,58 @@
+@import "custom-bootstrap";
+@import "custom_style";
+
+html, body {
+    background-color: $white;
+}
+
+h1,
+.h1 {
+  @include font-size($h1-font-size);
+
+  font-weight: $font-weight-black;
+}
+
+h2,
+.h2 {
+  @include font-size($h2-font-size);
+
+  font-weight: $font-weight-semi-bold;
+}
+
+h3,
+.h3 {
+  @include font-size($h3-font-size);
+}
+
+p {
+  font-family: $font-family-base;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+thead {
+  color: $gray;
+}
+
+th {
+  font-weight: $font-weight-black;
+}
+
+th,
+td {
+  font-size: $font-size-base * 0.75;
+}
+
+
+tbody > tr {
+  background-color: $full-white;
+  font-weight: $font-weight-semi-bold;
+  margin-bottom: 100px;
+
+  :first-child, :nth-child(6){
+    padding: 0;
+  }
+}

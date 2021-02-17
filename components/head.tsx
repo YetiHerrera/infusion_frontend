@@ -16,7 +16,7 @@ function Head(): JSX.Element {
         <Nav className="w-100 mr-5 justify-content-between">
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button>Buscar</Button>
+            <Button variant="secondary">Buscar</Button>
           </Form>
           <NavDropdown title="About me" id="dropdown_about">
             <NavDropdown.Item>Action</NavDropdown.Item>

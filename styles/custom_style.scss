@@ -1,0 +1,25 @@
+.subtitle {
+  color: $black;
+  font-size: $subtitle-font-size;
+  font-weight: $font-weight-semi-bold;
+}
+
+.contact-profile{
+    background-color: $red;
+    border-radius: 50%;
+    height: 30px;
+    margin: 6px auto;
+    text-align: center;
+    width: 30px;
+
+    &__social{
+        background-color: $gray;
+    }
+
+    .contact-first-letter{
+        color: $white;
+        font-weight: $font-weight-black;    
+        line-height: 30px;
+        margin: 0;
+    }
+}
