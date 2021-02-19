@@ -13,8 +13,11 @@ $secondary: #03258c;
 $third: #021e73;
 $red: #f20505;
 $white: #f2f2f2;
-$gray: #d3d3d3;
-$black: #252525;
+$light: #e2e6ea;
+$gray: #727272;
+$gray-shadow: #7272727c;
+$black: #242424;
+$full-white: #fff;
 
 $theme-colors: (
   "primary": $primary,
@@ -28,22 +31,23 @@ $font-weight-black: 900;
 $h1-font-size: $font-size-base * 3.5;
 $h2-font-size: $font-size-base * 3;
 $h3-font-size: $font-size-base * 1.25;
+$subtitle-font-size: $font-size-base * 2;
+$button-font-size: $font-size-base * 0.75;
 
-h1,
-.h1 {
-  @include font-size($h1-font-size);
 
-  font-weight: $font-weight-black;
-}
-
-h2,
-.h2 {
-  @include font-size($h2-font-size);
-
+.btn-primary{
+  background-color: $primary;
+  font-size: $button-font-size;
   font-weight: $font-weight-semi-bold;
 }
 
-h3,
-.h3 {
-  @include font-size($h3-font-size);
+.btn-light{
+  background-color: $light;
+  font-size: $button-font-size;
+  font-weight: $font-weight-semi-bold;
+}
+
+.focus-0:focus{
+  border-color: transparent !important;
+  box-shadow: none !important;
 }
