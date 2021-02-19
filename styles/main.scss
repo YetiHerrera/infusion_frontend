@@ -5,6 +5,11 @@ html, body {
     background-color: $white;
 }
 
+header {
+  background-color: $full-white;
+  box-shadow: 0 0 3px 1px $gray-shadow;
+}
+
 h1,
 .h1 {
   @include font-size($h1-font-size);
