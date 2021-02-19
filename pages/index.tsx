@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
             </thead>
             <tbody>
               <tr>
-                <td>
+                <td className="p-2 p-lg-0">
                   <div className="contact-profile">
                     <p className="contact-first-letter">J</p>
                   </div>
@@ -48,13 +48,31 @@ export default function Home(): JSX.Element {
                 <td>
                   <div className="row justify-content-between ml-1 mr-3">
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">F</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        F
+                      </a>
                     </div>
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">T</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        T
+                      </a>
                     </div>
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">L</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        L
+                      </a>
                     </div>
                   </div>
                 </td>
@@ -73,7 +91,7 @@ export default function Home(): JSX.Element {
                 </td>
               </tr>
               <tr>
-                <td>
+                <td className="p-2 p-lg-0">
                   <div className="contact-profile">
                     <p className="contact-first-letter">J</p>
                   </div>
@@ -85,13 +103,31 @@ export default function Home(): JSX.Element {
                 <td>
                   <div className="row justify-content-between ml-1 mr-3">
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">F</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        F
+                      </a>
                     </div>
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">T</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        T
+                      </a>
                     </div>
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">L</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        L
+                      </a>
                     </div>
                   </div>
                 </td>
@@ -110,7 +146,7 @@ export default function Home(): JSX.Element {
                 </td>
               </tr>
               <tr>
-                <td>
+                <td className="p-2 p-lg-0">
                   <div className="contact-profile">
                     <p className="contact-first-letter">J</p>
                   </div>
@@ -122,13 +158,31 @@ export default function Home(): JSX.Element {
                 <td>
                   <div className="row justify-content-between ml-1 mr-3">
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">F</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        F
+                      </a>
                     </div>
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">T</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        T
+                      </a>
                     </div>
                     <div className="contact-profile contact-profile__social">
-                      <p className="contact-first-letter">L</p>
+                      <a
+                        href="http://facebook.com"
+                        className="contact-first-letter"
+                        target="blank"
+                      >
+                        L
+                      </a>
                     </div>
                   </div>
                 </td>
