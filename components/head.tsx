@@ -7,6 +7,7 @@ import {
   Navbar,
   NavDropdown,
 } from "react-bootstrap";
+import { Search } from "react-feather";
 
 function Head(): JSX.Element {
   return (
@@ -15,8 +16,14 @@ function Head(): JSX.Element {
       <Navbar.Collapse>
         <Nav className="w-100 mr-5 justify-content-between">
           <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="secondary">Buscar</Button>
+            <FormControl
+              type="text"
+              placeholder="Search"
+              className="mr-0 rounded-0 border-0 focus-0"
+            />
+            <Button variant="light" className="rounded-0 border-0 shadow-none">
+              <Search />
+            </Button>
           </Form>
           <NavDropdown title="About me" id="dropdown_about">
             <NavDropdown.Item>Action</NavDropdown.Item>
